@@ -14,7 +14,7 @@ Dark green: #28b485
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -30,7 +30,7 @@ body {
       rgba(128, 214, 113, 0.747),
       rgba(40, 180, 133, 0.795)
     ),
-    url("../img/hero.jpg");
+    url('../img/hero.jpg');
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
@@ -154,7 +154,7 @@ body {
 }
 
 .btn::after {
-  content: "";
+  content: '';
   display: inline-block;
   height: 100%;
   width: 100%;
